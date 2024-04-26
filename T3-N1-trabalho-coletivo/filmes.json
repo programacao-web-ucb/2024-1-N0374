@@ -1,15 +1,15 @@
 [
     {
-        "nome": "Avatar",
-        "ano": "2009",
+        "titulo": "Avatar",
+        "ano": 2009,
         "duracaoEmMinutos": 162,
-        "categorias": [
+        "genero": [
             "Ação",
             "Aventura",
             "Fantasia"
         ],
         "diretor": "James Cameron",
-        "roteiro": "James Cameron",
+        "roteiristas": ["James Cameron"],
         "atores": [
             "Sam Worthington",
             "Zoe Saldana",
@@ -17,11 +17,11 @@
             "Stephen Lang"
         ],
         "poster": "https://xl.movieposterdb.com/09_08/2009/499549/xl_499549_cd69e2ea.jpg",
-        "metascore": "83"
+        "metascore": 83
     },
     {
         "titulo": "Eu Sou a Lenda",
-        "ano": "2007",
+        "ano": 2007,
         "duracaoEmMinutos": 101,
         "genero": [
             "Drama",
@@ -43,11 +43,11 @@
             "Salli Richardson-Whitfield"
         ],
         "poster": "https://xl.movieposterdb.com/07_12/2007/480249/xl_480249_66680d6b.jpgs",
-        "metascore": "65"
+        "metascore": 65
     },
     {
         "titulo": "300",
-        "ano": "2006",
+        "ano": 2006,
         "duracaoEmMinutos": 117,
         "genero": [
             "Ação",
@@ -69,11 +69,11 @@
             "David Wenham"
         ],
         "poster": "https://xl.movieposterdb.com/07_09/2006/0416449/xl_0416449_ebba784f.jpg",
-        "metascore": "52"
+        "metascore": 52
     },
     {
         "titulo": "O Lobo de Wall Street",
-        "ano": "2013",
+        "ano": 2013,
         "duracaoEmMinutos": 180,
         "genero": [
             "Biografia",
@@ -92,11 +92,11 @@
             "Matthew McConaughey"
         ],
         "poster": "https://xl.movieposterdb.com/13_11/2013/993846/xl_993846_6b55e2ea.jpg",
-        "metascore": "75"
+        "metascore": 75
     },
     {
         "titulo": "Interestelar",
-        "ano": "2014",
+        "ano": 2014,
         "duracaoEmMinutos": 169,
         "genero": [
             "Aventura",
@@ -115,7 +115,7 @@
             "John Lithgow"
         ],
         "poster": "https://xl.movieposterdb.com/14_09/2014/816692/xl_816692_6fbec03a.jpg",
-        "metascore": "74"
+        "metascore": 74
     },
     {
         "titulo": "À Procura da Felicidade",
