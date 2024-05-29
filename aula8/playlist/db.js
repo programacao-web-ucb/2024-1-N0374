@@ -35,6 +35,6 @@ function initializeDatabase() {
   });
 }
 
-initializeDatabase(); // Chama a função para inicializar o banco de dados
+//initializeDatabase(); // Chama a função para inicializar o banco de dados
 
 module.exports = db;
