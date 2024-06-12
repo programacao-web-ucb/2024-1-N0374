@@ -8,10 +8,9 @@ app.use(cors())
 app.use(express.json());
 
 var todos = [
-    {"name": "lavar a louça", "status": "feito"},
-    {"name": "estudar", "status": "a fazer"}
+    {"name": "lavar a louça", "done": true},
+    {"name": "estudar", "done": false}
 ]
-
 
 // Rota para listar as tarefas
 app.get('/todos', (req, res) => {
@@ -20,7 +19,8 @@ app.get('/todos', (req, res) => {
  
 app.post('/todos', (req, res) => {
   const { name, status } = req.body;
-  todos.push({name: name, status: status})
+  todos.push({name: name, done: status})
+  res.send(JSON.stringify(todos))
 });
 
 
